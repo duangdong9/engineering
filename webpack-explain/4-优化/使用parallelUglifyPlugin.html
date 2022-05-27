@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ParallelUglifyPlugin | duangdong的engineering</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/logo.png">
+    <link rel="manifest" href="/manifest.json">
+    <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?0088ce24040b03f2947322ab31d23414";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+    <script>
+  var _hmt = _hmt || [];
+  _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
+    shouldTrackUrlChange: function (newPath, oldPath) {
+      newPath = newPath.split('#')[0];
+      oldPath = oldPath.split('#')[0];
+      return newPath != oldPath;
+    }}
+  ]);
+  </script>
+    <meta name="description" content="前端相关知识归纳总结">
+    <meta name="keywords" content="qd-blog,node,vuepress,leetcode,algorithm">
+    
+    <link rel="preload" href="/assets/css/0.styles.a427ee9b.css" as="style"><link rel="preload" href="/assets/js/app.0d0df882.js" as="script"><link rel="preload" href="/assets/js/2.e21ead49.js" as="script"><link rel="preload" href="/assets/js/28.df99dd98.js" as="script"><link rel="prefetch" href="/assets/js/10.095c5a27.js"><link rel="prefetch" href="/assets/js/11.657ad112.js"><link rel="prefetch" href="/assets/js/12.66860f3e.js"><link rel="prefetch" href="/assets/js/13.1d3a3f51.js"><link rel="prefetch" href="/assets/js/14.be227c51.js"><link rel="prefetch" href="/assets/js/15.7473a802.js"><link rel="prefetch" href="/assets/js/16.0008324a.js"><link rel="prefetch" href="/assets/js/17.9c1a8c91.js"><link rel="prefetch" href="/assets/js/18.d70fb823.js"><link rel="prefetch" href="/assets/js/19.13b3b095.js"><link rel="prefetch" href="/assets/js/20.ccad6ee0.js"><link rel="prefetch" href="/assets/js/21.c43810f1.js"><link rel="prefetch" href="/assets/js/22.4d35f4d7.js"><link rel="prefetch" href="/assets/js/23.85998092.js"><link rel="prefetch" href="/assets/js/24.a27d62e1.js"><link rel="prefetch" href="/assets/js/25.c2b620c4.js"><link rel="prefetch" href="/assets/js/26.a5620c4a.js"><link rel="prefetch" href="/assets/js/27.7849893a.js"><link rel="prefetch" href="/assets/js/29.99e32795.js"><link rel="prefetch" href="/assets/js/3.2a39ddfb.js"><link rel="prefetch" href="/assets/js/30.cacfaad6.js"><link rel="prefetch" href="/assets/js/31.e97417a7.js"><link rel="prefetch" href="/assets/js/32.42581a00.js"><link rel="prefetch" href="/assets/js/33.baef6191.js"><link rel="prefetch" href="/assets/js/34.3835c312.js"><link rel="prefetch" href="/assets/js/35.6784a479.js"><link rel="prefetch" href="/assets/js/36.e16147fe.js"><link rel="prefetch" href="/assets/js/37.304d40fd.js"><link rel="prefetch" href="/assets/js/38.37aad774.js"><link rel="prefetch" href="/assets/js/39.760a7a95.js"><link rel="prefetch" href="/assets/js/4.8f6f0475.js"><link rel="prefetch" href="/assets/js/40.ef7f17ec.js"><link rel="prefetch" href="/assets/js/41.70529221.js"><link rel="prefetch" href="/assets/js/42.22fd9da3.js"><link rel="prefetch" href="/assets/js/43.6baacc87.js"><link rel="prefetch" href="/assets/js/44.a1a24054.js"><link rel="prefetch" href="/assets/js/45.31904ae9.js"><link rel="prefetch" href="/assets/js/46.29922fe2.js"><link rel="prefetch" href="/assets/js/47.9a6dd186.js"><link rel="prefetch" href="/assets/js/48.87ac5ad4.js"><link rel="prefetch" href="/assets/js/49.e09e1a7f.js"><link rel="prefetch" href="/assets/js/5.8b87f02a.js"><link rel="prefetch" href="/assets/js/50.5ee6825b.js"><link rel="prefetch" href="/assets/js/51.b168e78a.js"><link rel="prefetch" href="/assets/js/52.bc53751e.js"><link rel="prefetch" href="/assets/js/53.b71b5cd0.js"><link rel="prefetch" href="/assets/js/54.acaf08e8.js"><link rel="prefetch" href="/assets/js/6.2f86309f.js"><link rel="prefetch" href="/assets/js/7.f1cc41de.js"><link rel="prefetch" href="/assets/js/8.4bd9e3b2.js"><link rel="prefetch" href="/assets/js/9.64804afd.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.a427ee9b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">duangdong的engineering</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/engineering/" class="nav-link">
+  工程化
+</a></div><div class="nav-item"><a href="/webpack/" class="nav-link">
+  Webpack
+</a></div><div class="nav-item"><a href="/webpack-explain/" class="nav-link router-link-active">
+  深入浅出Webpack
+</a></div><div class="nav-item"><a href="/babel/" class="nav-link">
+  Babel
+</a></div><div class="nav-item"><a href="/micro-front/" class="nav-link">
+  微前端
+</a></div><div class="nav-item"><a href="https://link.qdzhou.cn" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Home
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/engineering/" class="nav-link">
+  工程化
+</a></div><div class="nav-item"><a href="/webpack/" class="nav-link">
+  Webpack
+</a></div><div class="nav-item"><a href="/webpack-explain/" class="nav-link router-link-active">
+  深入浅出Webpack
+</a></div><div class="nav-item"><a href="/babel/" class="nav-link">
+  Babel
+</a></div><div class="nav-item"><a href="/micro-front/" class="nav-link">
+  微前端
+</a></div><div class="nav-item"><a href="https://link.qdzhou.cn" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Home
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/webpack-explain/" aria-current="page" class="sidebar-link">前端工程化</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>4-优化</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/webpack-explain/4-优化/使用DllPlugin.html" class="sidebar-link">使用DllPlugin</a></li><li><a href="/webpack-explain/4-优化/使用HappyPack.html" class="sidebar-link">HappyPack</a></li><li><a href="/webpack-explain/4-优化/使用parallelUglifyPlugin.html" class="active sidebar-link">ParallelUglifyPlugin</a></li><li><a href="/webpack-explain/4-优化/压缩代码.html" class="sidebar-link">压缩代码</a></li><li><a href="/webpack-explain/4-优化/缩小文件搜索范围.html" class="sidebar-link">缩小文件搜索范围</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="paralleluglifyplugin"><a href="#paralleluglifyplugin" class="header-anchor">#</a> ParallelUglifyPlugin</h1> <blockquote><p>会开启多个子进程去，把多个文件的压缩工作分配给多个子进程去压缩</p> <p>实质上每个子进程还是通过UglifyJs完成的压缩，只是变成了并发执行</p></blockquote></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">5/27/2022, 9:33:08 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/webpack-explain/4-优化/使用HappyPack.html" class="prev">
+        HappyPack
+      </a></span> <span class="next"><a href="/webpack-explain/4-优化/压缩代码.html">
+        压缩代码
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.0d0df882.js" defer></script><script src="/assets/js/2.e21ead49.js" defer></script><script src="/assets/js/28.df99dd98.js" defer></script>
+  </body>
+</html>
